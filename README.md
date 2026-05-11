@@ -1,4 +1,5 @@
 # CHPL Tracker - Litigation Information Extraction Tool
+Completed by: Kayla Logar
 
 ## Overview
 
