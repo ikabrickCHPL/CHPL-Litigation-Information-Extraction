@@ -233,6 +233,25 @@ html, body,
     border-radius: 4px !important;
     background: #fffdf6 !important;
 }
+            [data-testid="stFileUploaderDropzone"]:hover,
+[data-testid="stFileUploaderDropzone"]:focus-within {
+    border-color: #16c5f9 !important;
+}
+[data-testid="stFileUploaderProgressBar"] > div,
+[data-testid="stFileUploaderProgressBar"] > div > div {
+    background-color: #16c5f9 !important;
+}
+
+/* ── Tabs ── */
+[data-baseweb="tab-highlight"] {
+    background-color: #16c5f9 !important;
+}
+[data-baseweb="tab"][aria-selected="true"] {
+    color: #002147 !important;
+}
+[data-baseweb="tab"]:hover {
+    color: #002147 !important;
+}
 
 /* ── Tables ── */
 .gt-table {
