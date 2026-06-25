@@ -2165,7 +2165,7 @@ def identify_goals(
     # Validate: only keep labels that exactly match the known set.
     parsed = [label.strip() for label in raw.split(";")]
     matched = sorted(label for label in parsed if label in valid_labels)
-    return "; ".join(matched) if matched else "Not identified"
+    return ", ".join(matched) if matched else "Not identified"
 
 
 def identify_issues(
@@ -2263,7 +2263,7 @@ def identify_issues(
 
     parsed = [label.strip() for label in raw.split(";")]
     matched = sorted(label for label in parsed if label in valid_labels)
-    return "; ".join(matched) if matched else "Not identified"
+    return ", ".join(matched) if matched else "Not identified"
 
 
 def identify_potential_impact(
